@@ -15,7 +15,6 @@ int (*get_builtin(char *cmd))(data_shell *)
 		{ "cd", cd_shell },
 		{ "help", get_help },
 		{ NULL, NULL },
-		{ "exits", exit_shell }
 	};
 	int i;
 
